@@ -9,23 +9,26 @@
             * {
                 box-sizing: border-box;
             }
-            body{
-                font-family: Arial ;
+
+            body {
+                font-family: Arial;
                 padding: 20px;
                 background: #f1f1f1;
             }
 
             /* Header/Blog Title */
-            .header{
+            .header {
                 padding: 30px;
                 font-size: 40px;
                 text-align: center;
                 background: white;
             }
-            .leftcolumn{
+
+            .leftcolumn {
                 float: left;
                 width: 75%;
             }
+
             .rightcolumn {
                 float: right;
                 width: 25%;
@@ -44,21 +47,23 @@
                 margin-top: 20px;
             }
 
-            .row::after{
+            .row:after {
                 content: "";
                 clear: both;
                 display: table;
             }
 
-            .footer{
+            .footer {
                 padding: 20px;
-                text-align:center;
+                text-align: center;
                 background: #ddd;
                 margin-top: 20px;
             }
 
-            @media  screen and (max-width:800px) {
-                .leftcolumn, .rightcolumn {
+            @media screen and (max-width:800px) {
+
+                .leftcolumn,
+                .rightcolumn {
                     width: 100%;
                     padding: 0;
                 }
@@ -66,6 +71,7 @@
             }
         </style>
     </head>
+
     <body>
         <div class="header">
             <h2>Blog Name</h2>
@@ -84,15 +90,19 @@
                     <div class="fakeimg" style="height: 200px;">IMAGE</div>
                     <p>some text</p>
                 </div>
-                <div class="rightcolumn">
-                    <div class="card">
-                        <h2>About Me</h2>
-                        <div class="fakeimg" style="height: 100px;">IMAGE</div>
-                        <p>Some text introducing self</p>
-                    </div>
-                    <div class="card"><h3>Popular Post</h3>
-                    <div class="famkeimg">Image</div><br>
-                    <div class="famkeimg">Image</div><br>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <div class="fakeimg" style="height: 100px;">IMAGE</div>
+                    <p>Some text introducing self</p>
+                </div>
+                <div class="card">
+                    <h3>Popular Post</h3>
+                    <div class="famkeimg">Image</div>
+                    <br />
+                    <div class="famkeimg">Image</div>
+                    <br />
                     <div class="famkeimg">Image</div>
                 </div>
                 <div class="card">
@@ -100,9 +110,9 @@
                     <p>Some Text</p>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <h2>Footer</h2>
+            <div class="footer">
+                <h2>Footer</h2>
+            </div>
         </div>
     </body>
 </html>
