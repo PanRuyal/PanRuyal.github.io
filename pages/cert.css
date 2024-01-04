@@ -1,7 +1,39 @@
-.date {
-    color: #871;
-    font-size: 70px;
-    font-style: bold;
+* {
+    font-size: 24px;
+}
+
+body {
     text-align: center;
+}
+
+div {
+    color: #871;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.main {
+    display: flexbox;
+    width: 20rem;
+    border: 3px solid #000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.date {
     margin-top: 10%;
+    font-size: 50px;
+}
+
+.time {
+    margin: 0;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.location {
+    font-weight: 500;
 }
